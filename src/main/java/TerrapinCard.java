@@ -28,7 +28,7 @@ public class TerrapinCard {
   }
 
   public void loadMoney(double amount) {
-    if (amount>150){
+    if (balance+amount>150){
       balance=150;
     }
     else if (amount>0){
