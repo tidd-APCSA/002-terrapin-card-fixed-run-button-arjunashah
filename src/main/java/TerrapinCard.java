@@ -39,6 +39,9 @@ public class TerrapinCard {
     }
   }
 
+  public void getBalance(){
+    System.out.println(balance);
+  }
 
 
   public String toString(){
