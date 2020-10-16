@@ -13,7 +13,6 @@ public class TerrapinCard {
     else{
       balance+=0;
     }
-    
   }
 
   public void payGourmet() {
@@ -24,7 +23,6 @@ public class TerrapinCard {
     else{
       balance+=0;
     }
-    
   }
 
   public void loadMoney(double amount) {
@@ -39,8 +37,8 @@ public class TerrapinCard {
     }
   }
 
-  public void getBalance(){
-    System.out.println(balance);
+  public double getBalance(){
+    return balance;
   }
 
 
